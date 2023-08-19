@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+html{
+    font-size: 62.5%;
+}
+#section{
+    height: 60rem;
+    background-image: url(images/dev\ \(4\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#sectionText{
+    margin: 0 auto;
+    height: fit-content;
+    max-width: fit-content;
+    padding-top: 4rem;
+}
+#spanText{
+    font-size: medium;
+    font-weight: 200;
+}
+h2{
+    letter-spacing: .2rem;
+    font-size: 4rem;
+}
+#work{
+    height: 12rem;
+    background-color: black;
+}
+#workText{
+    color: aliceblue;
+    margin: 0 auto;
+    width: fit-content;
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 3rem;
+    letter-spacing: .2rem;
+}
+#skill{
+    height: 45rem;
+    display: flex;
+    justify-content: center;
+
+}
+#skillBlock{ 
+    height: 100%;
+    width: max-content;
+    display: flex;
+    column-gap: 5rem;
+}
+#check{
+    background-color:  lightskyblue;
+    height: 20rem;
+    display: flex;
+}
+.images{
+    box-shadow: .5rem .8rem .8rem rgba(1,1,1,0.2);
+    height: auto;
+    width: 30rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 3rem;
+    overflow: hidden;
+    transition: 0.2s ease-in-out;
+}
+#contact{
+    background-color:yellowgreen;
+    height: 100%;
+    width: 50%;
+    padding: 3rem;
+}
+#about{
+    height: 100%;
+    width: 50%;
+    padding: 3rem;
+}
+#imageBlock1,#imageBlock2,#imageBlock3{
+    height: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0.3rem .5rem .5rem rgba(1,1,1,0.4);}
+#text{
+    height: 60%;
+    padding: 3rem;
+}
+#imageBlock1{
+    background-image: url(images/dev\ \(1\).jpg);
+}
+#imageBlock2{
+    background-image: url(images/dev\ \(3\).jpg);
+}
+#imageBlock3{
+    background-image: url(images/dev\ \(2\).jpg);
+}
+h5{
+    font-size: 2rem;
+    font-weight: 600;
+}
+h4{
+    font-size: 2rem;
+}
+.images:hover{
+    transform: scale(1.04);
+    box-shadow: 0.3rem 0.5rem 0.5rem rgba(1,1,1,0.7);
+    transition: 0.2s ease-in-out;
+}
+p{
+    font-size: 1.5rem;
+}
+@media (max-width:893px){
+    #skill{
+        height: 200rem;
+    }
+    #skillBlock{ 
+    height: 100%;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding-bottom: 5rem;
+    padding-top:6rem;
+    }
+    .images{
+    height: 33%;
+    width:40rem;
+}
+}
+@media (max-width:550px){
+    html{
+        font-size: 45%;
+    }
+    #workText{
+        font-size: 4rem;
+    }
+}
+@media (max-width:400px){
+    html{
+        font-size: 35%;
+    }
+}
